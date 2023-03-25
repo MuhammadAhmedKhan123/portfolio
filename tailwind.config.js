@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       screens:{
+        'll1': {'min': '1026px', 'max':'1200px'},
         'll': {'min': '900px', 'max':'1026px'},
         'l': {'min': '800px', 'max':'900px'},
         's': {'min': '600px', 'max':'800px'},

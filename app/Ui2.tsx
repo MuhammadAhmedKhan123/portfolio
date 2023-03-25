@@ -4,20 +4,20 @@ import React from 'react'
 
 function Ui2() {
   return (
-    <div className=' relative w-full lg:h-[4112px] ll:h-[4137px] l:h-[4152px] mm:h-[5792px] xs:h-[5882px] s:h-[5298px] bg-[#101630] overflow-hidden'>
+    <div className=' relative w-full lg:h-[4720px]  ll1:h-[4682px] ll:h-[4172px] l:h-[4188px] mm:h-[5792px] xs:h-[5882px] s:h-[5298px] bg-[#101630] overflow-hidden'>
       <div className=' absolute top-[180px] mm:left-[-45px] xs:left-[-40px] s:left-[-45px] left-[-48px] text-[#1a213b] mm:text-[80px] xs:text-[100px] s:text-[130px] text-[180px] font-extrabold mm:rotate-[-45deg] s:rotate-[-40deg] rotate-[-35deg]'>DEVELOPER</div>
       <div className=' relative flex'>
         <div className=' flex justify-start'>
-          <h1 className=' mt-4 ml-12 mm:ml-6 xs:ml-6 s:ml-8 text-[#4e9dd6] font-Fasthand text-3xl'>Developer</h1>
+          <h1 className=' mt-4 ml-12 lg:ml-16 mm:ml-6 xs:ml-6 s:ml-8 text-[#4e9dd6] font-Fasthand text-4xl lg:text-5xl'>Developer</h1>
         </div>
         
         <div className='flex justify-end w-full s:invisible xs:invisible mm:invisible'>
-          <nav className='mr-12   mt-6  '>
-            <a href='/' className=' ml-6  text-sm   text-white hover:text-[#4e9dd6]'>HOME</a>
-            <a href='#about' className=' ml-6   text-sm  text-white hover:text-[#4e9dd6]'>ABOUT ME</a>
-            <a href='#portfolio' className=' ml-6   text-sm  text-white hover:text-[#4e9dd6]'>PORTFOLIO</a>
-            <a href='#services' className=' ml-6   text-sm  text-white hover:text-[#4e9dd6]'>SERVICES</a>
-            <a href='#contact' className=' ml-6   text-sm  text-white hover:text-[#4e9dd6] rounded-xl bg-gradient-to-l from-[#4932c1] to-[#4e9dd6] hover:bg-gradient-to-r pt-2 pb-2 pl-2 pr-2 '>CONTACT</a>
+          <nav className='mr-12 lg:mr-16 lg:text-3xl   mt-6  '>
+            <a href='/' className=' ml-6  text-lg  lg:text-2xl text-white hover:text-[#4e9dd6]'>HOME</a>
+            <a href='#about' className=' ml-6   text-lg lg:text-2xl text-white hover:text-[#4e9dd6]'>ABOUT ME</a>
+            <a href='#portfolio' className=' ml-6   text-lg lg:text-2xl text-white hover:text-[#4e9dd6]'>PORTFOLIO</a>
+            <a href='#services' className=' ml-6   text-lg lg:text-2xl text-white hover:text-[#4e9dd6]'>SERVICES</a>
+            <a href='#contact' className=' ml-6   text-lg lg:text-2xl text-white hover:text-[#4e9dd6] rounded-xl bg-gradient-to-l from-[#4932c1] to-[#4e9dd6] hover:bg-gradient-to-r pt-2 pb-2 pl-2 pr-2 '>CONTACT</a>
           </nav> 
         </div>
         
@@ -25,14 +25,14 @@ function Ui2() {
 
       <div>
       
-       <div className=' relative mm:ml-6 xs:ml-6 s:ml-8 ml-12 mm:mt-20 xs:mt-16  s:mt-16 mt-24'>
+       <div className=' relative mm:ml-6 xs:ml-6 s:ml-8 ml-12 lg:ml-16 mm:mt-20 xs:mt-16  s:mt-16 mt-24 mt-32'>
        
-       <div className='  font-sans font-semibold mm:text-2xl xs:text-3xl s:text-4xl text-5xl  '>
+       <div className='  font-sans font-semibold mm:text-2xl xs:text-3xl lg:7xl s:text-4xl text-5xl  '>
         <h1 className=' text-[#8e94a8]'>I&apos;m a</h1>
        </div>
         
-       <div className='mm:mt-1 xs:mt-1 s:mt-1 mt-3 relative font-semibold font-serif  text-white mm:text-4xl xs:text-5xl s:text-6xl text-7xl mm:w-[400px] xs:w-[500px] w-[700px]'>
-       <h1>FULL STACK SOFTWARE DEVELOPER</h1><div  className=' absolute mm:top-[100px] xs:top-[118px] s:top-[151px] top-[179px] mm:left-[250px] xs:left-[335px] s:left-[415px] left-[500px] bg-[#4e9dd6] mm:w-3 mm:h-3  xs:w-4 xs:h-4 s:w-5 s:h-5 w-6 h-6'></div>
+       <div className='mm:mt-1 xs:mt-1 s:mt-1 mt-3 relative font-semibold font-serif  text-white mm:text-4xl xs:text-5xl s:text-6xl text-7xl lg:text-8xl mm:w-[400px] xs:w-[500px] w-[700px]'>
+       <h1>FULL STACK SOFTWARE DEVELOPER</h1><div  className=' absolute lg:top-[250px] lg:left-[660px] mm:top-[100px] xs:top-[118px] s:top-[151px] top-[179px] mm:left-[250px] xs:left-[335px] s:left-[415px] left-[500px] bg-[#4e9dd6] mm:w-3 mm:h-3  xs:w-4 xs:h-4 s:w-5 s:h-5 w-6 h-6'></div>
        
        </div>
        <div className=' relative mm:mt-6 xs:mt-6 s:mt-7 mt-10 mm:w-48 xs:w-52 s:w-56 w-64 mm:h-10 xs:h-12 s:h-14 h-16 text-center mm:pt-1 xs:pt-2 s:pt-3 pt-4 text-lg font-semibold  rounded-xl  bg-gradient-to-l  hover:bg-gradient-to-r from-[#4932c1] to-[#4e9dd6]   text-white'> Previous Projects</div>
@@ -44,21 +44,21 @@ function Ui2() {
 
        <div id='about' className=' flex mm:justify-center xs:justify-center s:justify-center '>
       <div >
-        <div className=' relative mm:top-[-150px] xs:top-[-180px] s:top-[-280px] top-[-150px]  ml-12'>
+        <div className=' relative mm:top-[-150px] xs:top-[-180px] s:top-[-280px] top-[-150px]  lg:top-[0px] ml-12 lg:ml-16 ll1:ml-14'>
           <div>
-        <div className='  relative mm:left-[12px] xs:left-[45px] s:left-[22px] left-6 mm:top-[327px] xs:top-[407px] s:top-[500px] top-[365px]  rounded-xl h-[335px] mm:h-[300px] xs:h-[370px] s:h-[480px] mm:w-[260px] xs:w-[320px] s:w-[400px]  w-72  border-[10px]  border-[#4e9dd6]'></div>
-          <div className=' relative mm:left-[-6px] xs:left-[20px] s:left-[-3px] overflow-hidden mm:w-[260px] xs:w-[320px] s:w-[400px] w-72 rounded-xl '>
+        <div className='  relative mm:left-[12px] xs:left-[45px] s:left-[22px] left-6 lg:left-8 mm:top-[327px] xs:top-[407px] s:top-[500px] top-[365px] lg:top-[445px]  rounded-xl h-[335px] mm:h-[300px] xs:h-[370px] s:h-[480px] lg:h-[480px] mm:w-[260px] xs:w-[320px] s:w-[400px] lg:w-[400px]  w-72  border-[10px]  border-[#4e9dd6]'></div>
+          <div className=' relative mm:left-[-6px] xs:left-[20px] s:left-[-3px] overflow-hidden mm:w-[260px] xs:w-[320px] s:w-[400px] lg:w-[400px] w-72 rounded-xl '>
             <img src='./pics/pic1.jpg' alt='pic1' width={500}></img>
            
           </div>
           </div>
           
           
-          <div className=' w-full relative mm:top-[75px] xs:top-[75px] s:top-[75px] top-[-295px] mm:left-[-22px] xs:left-[-20px] s:left-[-20px] left-[340px] mm:text-center xs:text-center s:text-center'>
+          <div className=' w-full relative mm:top-[75px] xs:top-[75px] s:top-[75px] lg:top-[-473px] ll1:top-[-443px] top-[-295px] mm:left-[-22px] xs:left-[-20px] s:left-[-20px] left-[340px] lg:left-[460px] mm:text-center xs:text-center s:text-center'>
             <div>
-              <div><h1 className='  text-2xl font-semibold text-slate-200'>ABOUT ME</h1></div>
-              <div className=' pt-5 lg:w-[650px] ll:w-[500px] l:w-[400px] mm:w-[300px] xs:w-[400px] s:w-[500px]'><p className='  text-slate-200'>varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum</p></div>
-              <div className=' mt-7 text-slate-200'> <a className=' rounded-lg bg-[#4e9dd6] pt-3 pb-3 pl-8 pr-8 mr-5'>HIRE ME</a> <a className=' rounded-lg border-2 border-[#4e9dd6] hover:bg-[#4e9dd6] pt-3 pb-3 pl-8 pr-8'>RESUME</a></div>
+              <div><h1 className='  text-2xl font-semibold text-slate-200 lg:text-4xl'>ABOUT ME</h1></div>
+              <div className=' pt-5 lg:w-[650px] ll:w-[500px] ll1:w-[500px] l:w-[400px] mm:w-[300px] xs:w-[400px] s:w-[500px] ll1:text-2xl  lg:text-3xl'><p className='  text-slate-200'>varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum</p></div>
+              <div className=' mt-7 text-slate-200'> <a className=' rounded-lg bg-[#4e9dd6] lg:text-xl pt-3 pb-3 pl-8 pr-8 mr-5'>HIRE ME</a> <a className=' rounded-lg border-2 border-[#4e9dd6] hover:bg-[#4e9dd6] pt-3 pb-3 pl-8 pr-8 lg:text-xl'>RESUME</a></div>
             </div>
           </div>
         </div>
@@ -230,7 +230,7 @@ function Ui2() {
             </div>
 
             <div className='flex w-full mm:justify-center xs:justify-center s:justify-center  justify-start mt-5 mm:mt-[350px] xs:mt-[350px] s:mt-[350px] ml-[-100px] l:ml-[-30px] ll:ml-[-30px] '>
-              <div className=' flex-col  text-slate-200 ml-20 mm:ml-28'>
+              <div className=' flex-col  text-slate-200 ml-20 lg:ml-[180px] mm:ml-28'>
                 <div className='flex mb-3' ><div className='flex items-center justify-center w-12 h-12 bg-gradient-to-br from-white via-[#4e9dd6] to-[#4e9dd6] rounded-xl shadow-lg'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ecf0f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></div> <div className=' pl-3 pt-3'>0000000000000</div></div>
                 <div className='flex mb-3'><div  className='flex items-center justify-center w-12 h-12 bg-gradient-to-br from-white via-[#4e9dd6] to-[#4e9dd6] rounded-xl shadow-lg'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ecf0f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></div><div className=' pl-3 pt-3'>abcd@abc.com</div></div>
                 <div className='flex'><div  className='flex items-center justify-center w-14 mm:w-16  h-12 bg-gradient-to-br from-white via-[#4e9dd6] to-[#4e9dd6] rounded-xl shadow-lg'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ecf0f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"/></svg></div> <div className=' pl-3 pt-3 w-full'>House no:0900321 abc town</div></div>
