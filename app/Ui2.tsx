@@ -240,7 +240,7 @@ function Ui2() {
 
 
             <div className=' flex justify-center mm:mt-52 xs:mt-52 s:mt-52 mt-64 '>
-            <div className=' relative top-[-174px]  border-t-2 border-black mm:w-[400px] xs:w-[400px] s:w-[400px] ll1:w-[900px] ll:w-[840px] l:w-[800px] lg:w-[1000px] h-[200px] '>
+            <div className=' relative top-[-174px]  border-t-2 border-black mm:w-[400px] xs:w-[400px] s:w-[400px] ll1:w-[1000px] ll:w-[840px] l:w-[800px] lg:w-[1200px] h-[200px] '>
              
              <div className=' flex w-full justify-start mm:ml-2 xs:ml-2 s:ml-2'>
              <div className=' font-Fasthand text-3xl text-[#4e9dd6] mt-3'>Developer</div>
