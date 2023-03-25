@@ -4,7 +4,7 @@ import React from 'react'
 
 function Ui2() {
   return (
-    <div className=' relative w-full lg:h-[4720px]  ll1:h-[4682px] ll:h-[4172px] l:h-[4188px] mm:h-[5792px] xs:h-[5882px] s:h-[5298px] bg-[#101630] overflow-hidden'>
+    <div className=' relative w-full lg:h-[4720px]  ll1:h-[4682px] ll:h-[4172px] l:h-[4188px] mm:h-[5799px] xs:h-[5882px] s:h-[5298px] bg-[#101630] overflow-hidden'>
       <div className=' absolute top-[180px] mm:left-[-45px] xs:left-[-40px] s:left-[-45px] left-[-48px] text-[#1a213b] mm:text-[80px] xs:text-[100px] s:text-[130px] text-[180px] font-extrabold mm:rotate-[-45deg] s:rotate-[-40deg] rotate-[-35deg]'>DEVELOPER</div>
       <div className=' relative flex'>
         <div className=' flex justify-start'>
