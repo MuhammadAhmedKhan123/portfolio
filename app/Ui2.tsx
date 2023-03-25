@@ -202,7 +202,7 @@ function Ui2() {
 
 
        <footer className=' flex relative top-96 overflow-hidden'>
-        <div id='contact' className=' relative  w-full l:w-[900px] ll:w-[1200px] lg:w-[1500px] h-[540px] mm:h-[960px] xs:h-[940px] s:h-[950px] bg-gradient-to-br from-[#4932c1] to-[#4e9dd6] rounded-t-[70px]'>
+        <div id='contact' className=' relative  w-full l:w-[900px] ll:w-[1200px] lg:w-[1500px] h-[540px] mm:h-[968px] xs:h-[940px] s:h-[950px] bg-gradient-to-br from-[#4932c1] to-[#4e9dd6] rounded-t-[70px]'>
          
         <div className=' w-full flex justify-center'> <h1 className='  mt-4 font-semibold text-2xl text-center text-[#4e9dd6] '>CONTACT</h1></div>
           
